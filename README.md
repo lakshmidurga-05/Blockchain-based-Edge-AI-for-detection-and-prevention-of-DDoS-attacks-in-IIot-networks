@@ -1,4 +1,4 @@
-# Blockchain-based-Edge-AI-for-detection-and-prevention-of-DDoS-attacks-in-IIot-networks
+# Fabric-EdgeDefender
 A Blockchain-enabled Edge AI System for Real-time DDoS Detection in IIoT.
 
 ## Overview
@@ -26,7 +26,7 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 
-Run the above in PowerShell as Administrator.
+🔧 Run the above in PowerShell as Administrator.
 
 - Restart Your Computer
 - Install a Linux Distribution
@@ -37,7 +37,7 @@ Run the above in PowerShell as Administrator.
 wsl --set-default-version 2
 ```
 
-Verify Installation
+- 🧪 Verify Installation
 
 ```bash
 wsl --list --verbose
@@ -87,7 +87,7 @@ npm -v
 
 ## Colab Execution
 
-Step-by-Step: Create Kaggle API Key
+✅ Step-by-Step: Create Kaggle API Key
 
 1. Log into Kaggle: Go to https://www.kaggle.com and log in to your account.
 2. Go to your account settings: Click on your profile icon (top right corner) → Select "Account".
@@ -114,6 +114,7 @@ Follow the steps mentioned in (Fabric Setup)[fabric_setup.md]
 
 ### IIOT Device structure
 
+|------|-----------|-------------|
 | Name | Data Type | Description |
 |------|-----------|-------------|
 | IP | string | IP address of the device. |
